@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Carousel Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar" id="header">
+      <div class="logo" id="logo">
+        <img src="https://cdn.pixabay.com/user/2023/10/27/18-30-20-299_250x250.jpg" alt="Company Logo">
+        <h1>X Associates</h1>
+      </div>
+        
+      <ul class="menu" id="nav">
+        <li><a href="#About">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#company">Company</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<!-- lANDING-->
+  <section id="landing-section">
+    <div id="dynamic-photo" class="photo-container">
+      <div id="text-overlay">
+        <h1>Unlock Your Business Potential with X Associates</h1>
+      </div>
+    </div>
+  </section>
+
+<section id="About">
+  <section class="about">
+    <div class="about-header">
+      <h2>About Us</h2>
+    <div class="about-content">
+      <div id="mission" class="about-section active">
+        <h3>Mission</h3>
+        <p>Insert mission statement here.</p>
+      </div>
+      <div id="vision" class="about-section active">
+        <h3>Vision</h3>
+        <p>Insert vision statement here.</p>
+      </div>
+      <div id="values" class="about-section active">
+        <h3>Core Values</h3>
+        <p>Insert core values here.</p>
+      </div>
+    </div>
+    <div class="about-summary">
+      <h3>What We Do</h3>
+      <p>Insert brief summary of what we do and how we improve our client's businesses.</p>
+    </div>
+  </section>
+</section>
+
+<!-- SERVICES-->
+ <section id="services">
+  <section class="services">
+    <div class="service">
+      <div class="service-image" style="background-image: url('https://qph.cf2.poecdn.net/main-117818423_21840889911_42_1.png?w=1024&h=1024');"></div>
+       <h3>Service 1</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   </div>
+   <div class="service">
+     <div class="service-image" style="background-image: url('https://qph.cf2.poecdn.net/main-117818423_21844052023_36_1.png?w=1024&h=1024');"></div>
+     <h3>Service 2</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   </div>
+   <div class="service">
+     <div class="service-image" style="background-image: url('https://qph.cf2.poecdn.net/main-117818423_21849333815_36_1.png?w=1024&h=1024');"></div>
+     <h3>Service 3</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   </div>
+   <div class="service">
+     <div class="service-image" style="background-image: url('https://qph.cf2.poecdn.net/main-117818423_21849948215_36_1.png?w=1024&h=1024');"></div>
+     <h3>Service 4</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   </div>
+  </section>
+ </section>
+
+<!-- WHY US-->
+  <h3>WHY US</h2>
+  <div class="slider-container">
+    <div class="slider-control left inactive"></div>
+    <div class="slider-control right"></div>
+    <ul class="slider-pagi"></ul>
+    <div class="slider">
+      <div class="slide slide-0 active">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+          </svg>
+          <div class="slide__text">
+            <h2 class="slide__text-heading">EXPERTISE</h2>
+            <p class="slide__text-desc">Discover the expertise behind our financial consultation services. Uncover tailored solutions, expert advice, and personalized strategies for your financial goals. Click now for valuable insights</p>
+            <a class="slide__text-link">GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide-1 ">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+          </svg>
+          <div class="slide__text">
+            <h2 class="slide__text-heading">CREDIBILITY</h2>
+            <p class="slide__text-desc">Explore why our credibility sets us apart. Learn about our proven track record, client testimonials, and industry recognition. Make an informed choice for your financial journey. Click for trusted guidance.</p>
+            <a class="slide__text-link ">GET IN TOUCH </a>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <svg class="slide__overlay" viewBox="0 1 65 405" preserveAspectRatio="xMaxYMax slice">
+            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+          </svg>
+          <div class="slide__text">
+            <h2 class="slide__text-heading">CUSTOMIZATION</h2>
+            <p class="slide__text-desc">Experience the power of customization with our financial consultation. Get personalized guidance, tailored strategies, and expert insights designed just for you.</p>
+            <a class="slide__text-link">GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide__bg"></div>
+        <div class="slide__content">
+          <svg class="slide__overlay" viewBox="0 1 50 405" preserveAspectRatio="xMaxYMax slice">
+            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+          </svg>
+          <div class="slide__text">
+            <h2 class="slide__text-heading">COMPREHENSIVE SUPPORT</h2>
+            <p class="slide__text-desc">Experience comprehensive support with our holistic financial planning services. From analysis to implementation, we're here for your financial well-being. </p>
+            <a class="slide__text-link">GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<!-- TEAM-->
+<section id="company">
+ <section class="team">
+  <h2>Meet Our Team</h2>
+  <div class="team-cards">
+    <div class="partner-card">
+      <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.high.jpg" alt="Partner 1">
+      <h3>Felix Kariuki</h3>
+      <p>Qualifications and expertise</p>
+    </div>
+    <div class="partner-card">
+      <img src="https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.high.jpg" alt="Partner 2">
+      <h3>Henry Waruhui</h3>
+      <p>Qualifications and expertise</p>
+    </div>
+  </div>
+  </section>
+</section>
+
+  <!-- CAREERS -->
+<section id="contact">
+  <section class="careers">
+    <div class="careers-description">
+      <h2>About Our Company</h2>
+      <p>Insert a brief description of the company and its mission here.</p>
+    </div>
+
+    <div class="job-openings">
+      <h2>Job Openings</h2>
+      <div id="job-openings-message" class="job-openings-message">
+        No job openings available at the moment.
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- FOOTER -->
+  <footer>
+    <div class="consultation-section">
+      <h3>Schedule a Consultation</h3>
+      <div class="consultation-cards">
+        <div class="consultation-card">
+          <input type="text" placeholder="First Name">
+        </div>
+        <div class="consultation-card">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <div class="consultation-card">
+          <input type="text" placeholder="Company/Organization">
+        </div>
+        <div class="consultation-card">
+          <input type="email" placeholder="Company Email">
+        </div>
+        <div class="consultation-card">
+          <input type="tel" placeholder="Phone">
+        </div>
+        <div class="consultation-card">
+          <textarea rows="4" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <button class="send-button">Send</button>
+    </div>
+    
+    <div class="contact-section">
+      <h3>Contact Us</h3>
+      <div class="contact-details">
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>Phone Number</span>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>Email Address</span>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Location - Physical Address</span>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-clock"></i>
+          <span>Hours</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mailing-list-section">
+      <h3>Join Our Mailing List</h3>
+      <div class="mailing-list-details">
+        <input type="checkbox" id="mailing-list-checkbox">
+        <label for="mailing-list-checkbox">I agree to receive messages/emails from the Prahalad Associates Team</label>
+      </div>
+    </div>
+    
+    <div class="copyright-section">
+      <p>© 2023 Prahalad Associates. All rights reserved.</p>
+    </div>
+    
+    <div class="social-media-section">
+      <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <!-- Add any other relevant social media icons here -->
+    </div>
+  
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
